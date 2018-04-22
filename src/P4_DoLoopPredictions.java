@@ -11,16 +11,16 @@
  What do you expect the loop to output?
  
  (a)
- Repeats:
- Expected output:
+ Repeats: 10
+ Expected output: 
  (b)
- Repeats:
- Expected output:
+ Repeats: 0
+ Expected output: nothing
  (c)
- Repeats:
+ Repeats: infinity
  Expected output:
  (d)
- Repeats:
+ Repeats: 5
  Expected output:
    
  */
@@ -40,8 +40,12 @@ public class P4_DoLoopPredictions {
 		System.out.println("STARTING LOOP TEST");
 		
 		
-		// copy and paste the loop to test between here, between the println statements
-		
+		//c
+		int y = 250;
+		do {
+		    System.out.println( y );
+		} while( y % 3 != 0 );
+
 				
 		System.out.println("ENDING LOOP TEST");
 
