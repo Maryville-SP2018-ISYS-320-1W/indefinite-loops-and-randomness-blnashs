@@ -12,26 +12,26 @@
  
  (a)
  Repeats:
- Expected output:
+ Expected output: 10
  (b)
  Repeats:
- Expected output:
+ Expected output: 0
  (c)
  Repeats:
- Expected output:
+ Expected output: infinity
  (d)
  Repeats:
- Expected output:
+ Expected output:5
    
  */
 
 /*
  Was your prediction correct?
  
- (a)
- (b)
- (c)
- (d)
+ (a) yes
+ (b) yes
+ (c) yes
+ (d)no
 
 */
 public class P1_LoopPredictions {
@@ -40,7 +40,11 @@ public class P1_LoopPredictions {
 		System.out.println("STARTING LOOP TEST");
 		
 		
-		// copy and paste the loop to test between here, between the println statements
+		// d
+		String word = "a";
+		while( word.length() < 10 ) {
+		    word = "b" + word + "b";
+		}
 		
 				
 		System.out.println("ENDING LOOP TEST");
